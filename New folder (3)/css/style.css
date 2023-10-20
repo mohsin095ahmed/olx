@@ -1,0 +1,1026 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.nav-main{
+    background-color: rgba(247, 249, 255, 0.918);
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+    
+}
+nav{
+    
+}
+
+
+.blank{
+    height: 60px;
+    
+    display: flex;
+}
+
+
+.blank img {
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 50px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+
+.get{
+
+    cursor: pointer;
+     height: 20px;
+     width: 100px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.bet{
+    cursor: pointer;
+    height: 20px;
+    width: 120px;
+   margin-top: 30px;
+   margin-left: 50px;
+}
+
+.bet:hover{
+    color: blue;
+}
+
+
+
+.get:hover{
+    color: blue;
+}
+
+
+
+
+
+.rent{
+    display: flex;
+    height: 80px;
+    
+}
+
+.rent img{
+     height: 40px;
+     margin-left: 50px;
+     margin-top: 20px;
+     cursor: pointer;
+}
+
+
+
+.box-ser{
+    width: 360px;
+    height: 40px;
+    cursor: pointer;
+    
+}
+#ben{
+    width: 260px;
+    height: 40px;
+    padding-left: 27px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+option{
+    cursor: pointer;
+}
+#jen{
+    margin-top: 40px;
+    margin-left: -248px;
+}
+
+.ser{
+    margin-left: 250px;
+    height: 40px;
+    width: 650px;
+    margin-top: 30px;
+     padding-left: 20px;
+     font-size: 18px;    
+     padding-right: 50px;
+}
+.ser:focus{
+  border:  solid blue;
+  border-spacing: 0px;
+
+}
+.box2{
+    display: flex;
+}
+.wey{
+     height: 36px;
+    width: 35px;
+    background-color: black;
+    color: white;
+    font-size: 23px;
+    padding-left: 5px;
+    padding-top: 3px;
+    margin-top: 30px;
+    margin-left: -37px;
+    cursor: pointer;
+
+
+
+}
+
+
+font{
+    height: 22px;
+    
+    margin-left: 30px;
+    font-size: 18px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    border-bottom: 2px solid black;
+    display: inline-block;
+     
+     cursor: pointer;   
+}
+
+
+
+
+font:hover{
+    border: none;
+}
+
+.sell{
+    
+    height: 50px;
+    width: 120px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.sell img{
+    width: 80px;
+     margin-top: 2px;
+    margin-left: 10px;
+
+}
+
+
+.sell p{
+    margin-top: -35px;
+    margin-left: 27px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+/* start media 370 */
+
+
+@media(min-width:370px) and (max-width:500px){
+
+
+    .nav-main{
+        background-color: rgba(247, 249, 255, 0.918);
+        position: sticky;
+        top: 0px;
+        z-index: 3;
+        
+    }
+    nav{
+        
+    }
+    
+    
+    .blank{
+        height: auto;
+          width: 100%;        
+        display: flex;
+        
+    }
+    
+    
+    .blank img {
+        height: 30px;
+        margin-top: 20px;
+        margin-left: 20px;
+        cursor: pointer;
+        border-radius: 50px;
+    }
+    
+    
+    .get{
+    
+        cursor: pointer;
+         height: 20px;
+         width: 100px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    
+    .bet{
+        cursor: pointer;
+        height: 20px;
+        width: 120px;
+       margin-top: 30px;
+       margin-left: 20px;
+    }
+    
+    .bet:hover{
+        color: blue;
+    }
+    
+    
+    
+    .get:hover{
+        color: blue;
+    }
+    
+    
+    
+    
+    
+    .rent{
+        
+        height:200px;
+        width: 100%;
+        display: block;
+        
+    }
+    
+    .rent img{
+        display: none;
+         height: 40px;
+         margin-left: 50px;
+         margin-top: 20px;
+         cursor: pointer;
+    }
+    
+    .box-ser{
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+      
+     #made{
+        display: block;
+     }
+
+
+    .box2{
+        width: 100%;
+        display: block;
+    }
+    #ben{
+        width: 260px;
+        height: 40px;
+        padding-left: 27px;
+        font-size: 20px;
+        cursor: pointer;
+        margin-top: 30px;
+        display: block;
+        margin-left: 40px;
+    }
+    option{
+        cursor: pointer;
+    }
+    #jen{
+        margin-top: 40px;
+        margin-left: -248px;
+    }
+    
+    .ser{
+        margin-left: 5px;
+        height: 40px;
+        width: 350px;
+        display: block;
+        margin-top: -50px;
+         padding-left: 20px;
+         font-size: 18px;    
+         padding-right: 50px;
+    }
+    .ser:focus{
+      border:  solid blue;
+      border-spacing: 0px;
+    
+    }
+    .box2{
+        display: flex;
+    }
+    .wey{
+         height: 36px;
+        width: 35px;
+        background-color: black;
+        color: white;
+        font-size: 23px;
+        padding-left: 5px;
+        padding-top: 3px;
+        margin-top: -50px;
+        margin-left: -37px;
+        cursor: pointer;
+    
+    
+    
+    }
+    
+    
+    font{
+        height: 22px;
+        
+        margin-left: 30px;
+        font-size: 18px;
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        border-bottom: 2px solid black;
+        display: inline-block;
+         
+         cursor: pointer;   
+    }
+    
+    
+    
+    
+    font:hover{
+        border: none;
+    }
+    
+    .sell{
+        
+        height: 50px;
+        width: 120px;
+        cursor: pointer;
+        margin-top: 8px;
+        float:right;
+    }
+    
+    .sell img{
+        width: 80px;
+         margin-top: 2px;
+        margin-left: 10px;
+        display: block;
+        
+           
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    .dash{
+        display: none;
+        height: 500px;
+        width:300px;
+        border: 2px solid red;
+        box-shadow: 0 3px 4px black;
+        position: relative;
+        left: -100%;
+        margin-top:45px;
+        margin-left:100p;
+        overflow-y: scroll;
+        overflow-x: scroll;
+    }
+    
+    
+    #met{display: block;}
+    
+    #nut:checked ~ label #met{
+        display: none;
+    }
+    #nut:checked ~ label #ret {
+        left: 200px;
+        display: none;
+    }
+    #ret{
+        display: none;
+    }
+    
+    #nut:checked ~ .dash{
+        display: block;
+        display: none;
+    }
+    
+    
+    
+    
+    #nut{
+        display: none; 
+        
+    }
+    
+    .pol{
+        margin-left: 30px;
+    }
+    .moon{
+        display:block;
+        height: 40px;
+        font-size: 18px;
+         cursor: pointer;
+    
+    }
+    
+    
+    
+    
+    .bell{
+        margin-left: 175px;
+        margin-top: -40px;
+        width: 100%;
+        display: none;
+    
+    }
+         
+    
+    #met{
+         font-size: 20px;
+         margin-top: 15px;
+         cursor: pointer;
+         margin-left: -40px;
+         display: none;
+    }
+    #ret{
+        font-size: 20px;
+        cursor: pointer;
+        margin-top: 15px;
+        margin-left: -40px;
+        display: none;
+    }
+    
+    .moon ul{
+            list-style:none ;
+            line-height: 25px;
+            display: none;
+            margin-top: -4px;
+    }
+    
+    .moon li{
+        display: block;
+        padding-left: 15px;
+        cursor: pointer;
+        width: 100%;
+    }
+    
+    
+    .moon li:hover{
+        color: blue;
+    }
+    
+    
+    
+    .dash li{
+        cursor: pointer;
+    }
+    
+    .dash ul{
+        list-style: none;
+    }
+    
+    
+    .dash li:hover{
+        color: blue;
+    }
+        
+    .four{
+    
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    .five{
+        margin-left: 0px;
+    }
+    
+    .six{
+        margin-left: 0px;
+    }
+        
+
+    
+
+
+
+
+
+
+
+    
+
+.pop{
+    margin: 0px 50px;
+    height: auto;
+    width: 80% !important;
+    cursor: pointer;
+    display: block !important;
+}
+
+.pop img{
+    width: 100%;
+    height:auto;
+}
+
+.pop p, b{
+    margin: 0px 5px;
+}
+
+
+
+.rat{
+    
+    height: auto !important;
+    width:100% !important;
+    display: block !important;    
+}
+
+
+
+.tanp img{
+    width: 100px;
+    cursor: pointer;
+}
+
+
+.tank{
+    display: block !important;
+    width: 100% !important;
+    height:auto !important;
+    
+}
+
+
+.tanp{
+    width: 100% !important;
+    height :auto !important;
+}
+
+
+
+.men{
+    ;
+    display: block !important;
+    margin-top: 200px;
+    background-color: rgb(240, 243, 247);
+}
+
+
+
+.tank h2{
+    font-weight: 600;
+    margin-top: 70px;
+    margin-left: 60px;
+}
+.tank img{
+    cursor: pointer;
+    width: 100% !important;
+}
+
+.tank p{
+      font-size: 20px;
+      margin-left: 60px;
+      margin-right: 30px;
+      font-weight: 700;
+}
+
+ .tanp p{
+     margin-top:70px;
+     margin-left: 70px;
+     font
+}
+.tanp img{
+    margin-top:10px;
+}
+.pool{
+    
+    display: block !important;
+    height: auto !important;
+}
+
+.pool ul{
+    list-style: none;
+}
+.nop{
+    display: block !important;
+    height:auto !important;
+    width: 100% !important;
+    
+    background-color: rgb(230, 234, 240);
+}
+.pool li{
+    cursor: pointer;
+}
+
+
+.pook{
+    height: 250px;
+    width: 300px;
+    
+}
+
+.pook img{
+    width: 90px;
+}
+
+
+
+.pool ul{
+    margin-top: 50px;
+}
+
+
+.pook p{
+    margin-top: 50px;
+    margin-left: 50px;
+    color:rgb(9, 39, 82);
+    font-weight: 500;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    color:rgb(9, 39, 82);
+    width: 120px;
+    
+    margin-bottom: 20px;
+}
+
+
+.icons i{
+    cursor: pointer;
+}
+
+.pook img{
+    cursor: pointer;
+}
+
+.pool b{
+    color:rgb(9, 39, 82);
+}
+
+.pool li:hover{
+    color:blue;
+}
+
+
+
+.lastfoot{
+    background-color: rgb(9, 39, 82);
+    height:auto!important;
+    width: 100% !important;
+    
+    
+}
+
+.lastfoot p{
+    width: 100% !important;
+    font-size: 20px;
+    color:white;
+    position: relative;
+    right: 800px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dash{
+    height: 500px;
+    width:1200px;
+    box-shadow: 0 3px 4px black;
+    position: relative;
+    display: none;
+    margin-top:15px;
+    margin-left: -100px;
+}
+
+
+#met{display: block;}
+
+#nut:checked ~ label #met{
+    display: none;
+}
+#nut:checked ~ label #ret {
+    display: block;
+}
+#ret{
+    display: none;
+}
+
+#nut:checked ~ .dash{
+    display: block;
+}
+
+
+
+
+#nut{
+    display: none; 
+    
+}
+
+.pol{
+    margin-left: 30px;
+}
+.moon{
+    display:flex;
+    height: 40px;
+    font-size: 18px;
+     cursor: pointer;
+
+}
+
+
+
+
+.bell{
+    margin-left: 175px;
+    margin-top: -40px;
+
+}
+     
+
+#met{
+     font-size: 20px;
+     margin-top: 3px;
+     cursor: pointer;
+}
+
+#ret{
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+.moon ul{
+        list-style:none ;
+        line-height: 25px;
+        margin-top: -4px;
+}
+
+.moon li{
+    float: left;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+
+.moon li:hover{
+    color: blue;
+}
+
+
+
+.dash li{
+    cursor: pointer;
+}
+
+.dash ul{
+    list-style: none;
+}
+.four{
+    
+    margin-top: -490px;
+    margin-left: 250px;
+}
+
+.five{
+    margin-left: 250px;
+}
+
+.six{
+    margin-left: 250px;
+}
+
+.dash li:hover{
+    color: blue;
+}
+
+#carouselExampleControls{
+    
+    margin: 30px !important;
+}
+
+
+.pop{
+    box-shadow: 0px 2px  3px black;
+    height: 380px;
+    width: 250px;
+    cursor: pointer;
+
+}
+
+.pop img{
+    width: 100%;
+    height:250px;
+}
+
+.pop p, b{
+    margin: 0px 5px;
+}
+
+
+
+.rat{
+    display: flex;
+    
+    width: 1100px;
+    justify-content: space-around;
+    margin: 10px auto;
+}
+
+
+
+.tanp img{
+    width: 100px;
+    cursor: pointer;
+}
+
+
+.tank{
+    
+    width: 450px;
+    height: 200px;
+    
+}
+
+
+.tanp{
+    width: 450px;
+    height: 200px;
+}
+
+
+
+.men{
+    display: flex;
+    margin-top: 200px;
+    background-color: rgb(240, 243, 247);
+}
+
+
+
+.tank h2{
+    font-weight: 600;
+    margin-top: 70px;
+    margin-left: 60px;
+}
+.tank img{
+    cursor: pointer;
+}
+
+.tank p{
+      font-size: 20px;
+      margin-left: 60px;
+      margin-right: 30px;
+      font-weight: 700;
+}
+
+ .tanp p{
+     margin-top:70px;
+     margin-left: 70px;
+     font
+}
+.tanp img{
+    margin-top: 10px;
+}
+.pool{
+    
+    width: 250px;
+}
+
+.pool ul{
+    list-style: none;
+}
+.nop{
+    height: 250px;
+    justify-content: space-around;
+    display: flex;
+    background-color: rgb(230, 234, 240);
+}
+.pool li{
+    cursor: pointer;
+}
+
+
+.pook{
+    height: 250px;
+    width: 300px;
+    
+}
+
+.pook img{
+    width: 90px;
+}
+
+
+
+.pool ul{
+    margin-top: 50px;
+}
+
+
+.pook p{
+    margin-top: 50px;
+    margin-left: 50px;
+    color:rgb(9, 39, 82);
+    font-weight: 500;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    color:rgb(9, 39, 82);
+    width: 120px;
+    
+    margin-bottom: 20px;
+}
+
+
+.icons i{
+    cursor: pointer;
+}
+
+.pook img{
+    cursor: pointer;
+}
+
+.pool b{
+    color:rgb(9, 39, 82);
+}
+
+.pool li:hover{
+    color:blue;
+}
+
+
+
+.lastfoot{
+    background-color: rgb(9, 39, 82);
+    height:50px;
+    color: white;
+    display: flex;
+}
+
+.lastfoot p{
+    margin-left: 900px;
+    margin-top:15px;
+}

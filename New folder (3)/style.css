@@ -1,0 +1,13 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+.blank{
+    
+    height: 70px;
+    border-bottom: 5px solid black;
+}
+
